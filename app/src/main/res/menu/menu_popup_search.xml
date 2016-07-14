@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItemShare"
+        android:title="@string/share"
+        android:orderInCategory="100"/>
+
+    <item
+        android:id="@+id/menuItemAddToFavourites"
+        android:title="@string/add_to_favourites"
+        android:orderInCategory="200"/>
+
+</menu>

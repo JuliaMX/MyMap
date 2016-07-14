@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Settings", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/settings_black"
+        android:title="string/range"
+        app:showAsAction="ifRoom"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/deleteAllFavourites"
+        android:title="@string/deleteAllFavourites"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit"
+        android:orderInCategory="101"
+        app:showAsAction="never"/>
+</menu>
